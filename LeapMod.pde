@@ -59,27 +59,3 @@ void moveFinger () {
   fm.setFrequency(modulateFrequency);
   fm.setAmplitude(modulateAmount);
 }
-
-
- 
- 
- 
- 
-    //pushMatrix();
-    //translate(finger_index.getPosition().x, finger_index.getPosition().y, -200);
-    //noFill();
-    //stroke(255);
-    //sphere(88);
-    //popMatrix();
-    
-    // draw the waveforms
-    //stroke( 255 );
-    //for( int i = 0; i < out.bufferSize() - 1; i++ ) {
-    //  // find the x position of each buffer value
-    //  float x1  =  map( i, 0, out.bufferSize(), 0, width );
-    //  float x2  =  map( i+1, 0, out.bufferSize(), 0, width );
-      
-    //  // draw a line from one buffer position to the next for both channels
-    //  line( x1, 50 + out.left.get(i)*50, x2, 50 + out.left.get(i+1)*50);
-    //  line( x1, 150 + out.right.get(i)*50, x2, 150 + out.right.get(i+1)*50);
-    //}  
